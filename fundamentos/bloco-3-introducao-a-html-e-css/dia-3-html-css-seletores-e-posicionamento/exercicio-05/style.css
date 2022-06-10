@@ -1,0 +1,54 @@
+ol{
+    background-color: yellow;
+}
+ol li:nth-of-type(even){
+    color: green;
+}
+ol li:nth-of-type(odd){
+    text-transform:uppercase
+}
+h1,h2,h3,h4,h5,h6{
+    color: red;
+}
+h1 em{
+    border: 1px solid black;
+    font-size: 40px;
+}
+li{
+    font-size: 20px;
+}
+li em{
+    font-weight: 900;
+}
+h1 em{
+    font-size: 40px;
+    border: 1px solid black;
+}
+h2 em{
+    font-size: 40px;
+    border: 1px solid black;
+}
+h3 em{
+    font-size: 40px;
+    border: 1px solid black;
+}
+h4 em{
+    font-size: 40px;
+    border: 1px solid black;
+}
+h5 em{
+    font-size: 40px;
+    border: 1px solid black;
+}
+h6 em{
+    font-size: 40px;
+    border: 1px solid black;
+}
+#list_prog li:nth-of-type(-n+3){
+    color: blue;
+    
+}
+#list_prog [li="java"]{
+    background-color: pink;
+}
+

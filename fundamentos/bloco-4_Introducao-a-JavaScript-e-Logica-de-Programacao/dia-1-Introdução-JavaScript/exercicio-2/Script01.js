@@ -1,0 +1,9 @@
+const a = 16;
+const b = 8;
+console.log("Constante a = ",a);
+console.log("Constante a = ",b);
+console.log("Adição (a + b) =",a+b);
+console.log("Subtração (a - b) =",a-b);
+console.log("Multiplicação (a * b) =",a*b);
+console.log("Divisão (a / b) =",a/b);
+console.log("Módulo (a % b) =",a%b);

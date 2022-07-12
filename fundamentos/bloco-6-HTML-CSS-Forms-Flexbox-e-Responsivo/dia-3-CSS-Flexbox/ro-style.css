@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2C3639;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    background-color: white;
+}
+
+header h2 {
+    text-transform: uppercase;
+}
+
+header p {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#logo {
+    height: 50px;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+section h3 {
+    text-align: center;
+    color: white;
+}
+
+h3 strong {
+    color: #F58840;
+}
+#section-icon {
+    padding: 30px;
+}
+#icon-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 460px;
+}
+.icon {
+    padding: 40px 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#icon-container img{
+    height: 70px;
+}
+a {
+    height: 70px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#foot-cont {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    border-top: 1px solid white;
+    gap: 20px;
+    padding-top: 10px;
+    width: 60vw;
+}
+
+.foot img {
+    height: 30px;
+}
+
+.foot {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 5px;
+    width: 120px;
+    background-color: #F58840;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: small;
+}

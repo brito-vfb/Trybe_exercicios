@@ -1,4 +1,9 @@
-const assert = require('assert'); // Sintaxe para incluir o módulo assert
+const sum = (a,b) => {
+    return a+b;
+}
 
-// assert.strictEqual(50, 50); // Sem erros: 50 === 50
-assert.strictEqual(50, 70); // AssertionError: 50 !== 70
+const min = (a,b) => {
+    return a-b;
+}
+
+module.exports = {sum, min};
